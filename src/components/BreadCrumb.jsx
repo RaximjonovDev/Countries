@@ -4,9 +4,9 @@ import { Link, useLocation } from 'react-router-dom'
 const BreadCrump = () => {
 
     const location = useLocation();
-    const pathArr = location.pathname.split('/').filter(path => path.trim() !== ''); 
-    const cleanedPathArr = pathArr.map(path => path.replace(/20|%20/g, ' ')); 
-    
+    const pathArr = location.pathname.split('/').filter(path => path.trim() !== '');
+    const cleanedPathArr = pathArr.map(path => path.replace(/20|%20/g, ' '));
+
 
 
     return (
